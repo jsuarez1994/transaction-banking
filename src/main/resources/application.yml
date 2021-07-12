@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://batyr.db.elephantsql.com:5432/rbxhkjzn
+    username: rbxhkjzn
+    password: pO8CY5kbVeMWD72GUu-WHa2MsodxB5Hi
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate.ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        temp.use_jdbc_metadata_defaults: false
+        format_sql: true
+        type: error
+swagger:
+  enabled: true
+  title: Gestion de transacciones
